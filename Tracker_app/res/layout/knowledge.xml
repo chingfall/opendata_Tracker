@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web5"
+        android:src="@drawable/p7" />
+
+    <Button
+        android:id="@+id/web5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web4"
+        android:layout_marginTop="11dp"
+        android:text="死裡逃生要訣" />
+
+    <Button
+        android:id="@+id/web3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web2"
+        android:layout_marginTop="13dp"
+        android:text="火災逃生的狀況及方法" />
+
+    <Button
+        android:id="@+id/web4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web3"
+        android:layout_marginTop="15dp"
+        android:text="火災災難避難逃生要領" />
+
+    <Button
+        android:id="@+id/web1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="認識火災種類" />
+
+    <Button
+        android:id="@+id/web2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web1"
+        android:layout_marginTop="16dp"
+        android:text="火災預防與安全措施" />
+
+</RelativeLayout>

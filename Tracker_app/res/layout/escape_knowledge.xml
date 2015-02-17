@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/web4_gov"
+        android:src="@drawable/p6" />
+
+    <Button
+        android:id="@+id/web4_gov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web3_gov"
+        android:layout_marginTop="16dp"
+        android:text="認識火災種類" />
+
+    <Button
+        android:id="@+id/web3_gov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web2_gov"
+        android:layout_marginTop="11dp"
+        android:text="火災次數起火原因分析" />
+
+    <Button
+        android:id="@+id/web1_gov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:text="內政部消防署全球資訊網" />
+
+    <Button
+        android:id="@+id/web2_gov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/web1_gov"
+        android:layout_marginTop="18dp"
+        android:text="釐清錯誤觀念,救您一命!" />
+
+</RelativeLayout>

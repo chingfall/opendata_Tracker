@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.81"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.27"
+                android:src="@drawable/p2" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.10"
+                android:src="@drawable/p1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/p3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/p4" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:src="@drawable/p5" />
+
+        <Button
+            android:id="@+id/escape_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="防災知識" />
+
+        <Button
+            android:id="@+id/notify_demo_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Notify Message" />
+    </LinearLayout>
+
+</LinearLayout>
